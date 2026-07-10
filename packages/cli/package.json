@@ -2,5 +2,11 @@
     "name": "sendkit",
     "version": "1.0.0",
     "private": true,
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "commander": "^15.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^26.1.1"
+    }
 }
