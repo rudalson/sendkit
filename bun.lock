@@ -1,0 +1,16 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "sendkit-workspace",
+    },
+    "packages/cli": {
+      "name": "sendkit",
+      "version": "1.0.0",
+    },
+  },
+  "packages": {
+    "sendkit": ["sendkit@workspace:packages/cli"],
+  }
+}
