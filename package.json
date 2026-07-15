@@ -12,6 +12,7 @@
         "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts"
     },
     "devDependencies": {
+        "@biomejs/biome": "2.5.3",
         "@types/node": "^26.1.1"
     }
 }
