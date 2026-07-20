@@ -12,7 +12,7 @@
     "@clerk/backend": "^3.11.5",
     "@clerk/mcp-tools": "^0.6.0",
     "@modelcontextprotocol/sdk": "^1.29.0",
-    "hono": "^4.12.30",
-    "sendkit-core": "workspace:*"
+    "@rudals/sendkit-core": "workspace:*",
+    "hono": "^4.12.30"
   }
 }
