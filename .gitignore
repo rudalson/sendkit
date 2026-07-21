@@ -2,3 +2,5 @@ node_modules/
 .env
 mcp_config.json
 dist/
+opencode.json
+.mcp.json
