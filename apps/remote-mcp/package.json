@@ -12,6 +12,9 @@
     "build": "bun run --cwd ../.. build:core",
     "start": "bun run src/index.ts"
   },
+  "devDependencies": {
+    "@types/node": "^22.10.0"
+  },
   "dependencies": {
     "@clerk/backend": "^3.11.5",
     "@clerk/mcp-tools": "^0.6.0",
