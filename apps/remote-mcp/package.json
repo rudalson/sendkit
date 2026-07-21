@@ -8,11 +8,14 @@
       "import": "./src/index.ts"
     }
   },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
   "dependencies": {
     "@clerk/backend": "^3.11.5",
     "@clerk/mcp-tools": "^0.6.0",
     "@modelcontextprotocol/sdk": "^1.29.0",
-    "@rudals/sendkit-core": "workspace:*",
+    "@rudals/sendkit-core": "0.0.0",
     "hono": "^4.12.30"
   }
 }
