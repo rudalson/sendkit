@@ -56,7 +56,7 @@ function createServer(botToken: string) {
   return server;
 }
 
-const app = new Hono();
+export const app = new Hono();
 
 function protectedResourceMetadataUrl(c: Context, botToken: string) {
   return new URL(`/.well-known/oauth-protected-resource/${botToken}/mcp`, c.req.url).toString();
